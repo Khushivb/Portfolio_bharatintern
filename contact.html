@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="./assests/1.png">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="cv.html">Resume or CV</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="social_media.html">Social media links</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="contactform">
+                <header>
+                    <h1>Khushi V Bhandage</h1>
+                  </header>
+                
+                  <section class="contact">
+                    <h2>Contact Information</h2>
+                    <ul>
+                        <div id="email">
+                            <li>Email: <a href="#">khushibhandage49@gmail.com</a></li>
+                            <!-- <li>Email: khushibhandage49@gmail.com</li> -->
+                        </div>
+                      
+                      <li>Phone: 9632231194</li>
+                      <li>Location: Hubli, India</li>
+                    </ul>
+                  </section>
+                
+                  <section class="form">
+                    <h2>Contact Form</h2>
+                    <form>
+<!-- 
+                        <table>
+                            <tr>
+                                <td><label for="name">Name:</label></td>
+                                <td><input type="text" id="name" name="name" required></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="email">Email:</label></td>
+                                <td><input type="email" id="email" name="email" required></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="message">Message:</label></td>
+                                <td><textarea id="message" name="message" rows="2" required></textarea></td>
+                            </tr>
+                        </table> -->
+
+
+                      <label for="name">Name:</label>
+                      <input type="text" id="name" name="name" required>
+                
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" required>
+                
+                      <label for="message">Message:</label>
+                      <textarea id="message" name="message" rows="4" required></textarea>
+                
+                      <button id="Send" onclick="myFunction()">Send</button>
+                    </form>
+                  </section>
+                  <footer>
+                    <p>&copy; 2023 Khushi. All rights reserved.</p>
+                  </footer>
+            </div>
+<script>
+            function myFunction(){
+window.alert("Thank you. Your response has been recorded.");
+}</script>
+            <div class="custom-box"></div>
+        </div>
+    </div>
+</body>
+</html>

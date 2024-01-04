@@ -1,0 +1,1 @@
+document.getElementById("Send").innerHTML="Thank you. Your response has been recorded.";
